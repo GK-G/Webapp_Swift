@@ -19,7 +19,7 @@ var webView: WKWebView!
         // Do any additional setup after loading the view, typically from a nib.
         
         // 1
-        let url = URL(string: "https://erelsoft.com")!
+        let url = URL(string: "https://vtcrackers.bss.design")!
         webView.load(URLRequest(url: url))
         
         // 2
