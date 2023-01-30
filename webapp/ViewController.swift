@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  erelsoft
-//
-//  Created by Mehmet Ozgen on 3/27/19.
-//  Copyright © 2019 Mehmet Ozgen. All rights reserved.
-//
 
 import UIKit
 import WebKit
