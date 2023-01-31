@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D326F3912989D132000962A3 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = D326F3902989D132000962A3 /* AppIcon.appiconset */; };
 		E7EB39BB224C14B00062786F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EB39BA224C14B00062786F /* AppDelegate.swift */; };
 		E7EB39BD224C14B00062786F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EB39BC224C14B00062786F /* ViewController.swift */; };
 		E7EB39C0224C14B00062786F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7EB39BE224C14B00062786F /* Main.storyboard */; };
 		E7EB39C2224C14B50062786F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7EB39C1224C14B50062786F /* Assets.xcassets */; };
 		E7EB39C5224C14B50062786F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7EB39C3224C14B50062786F /* LaunchScreen.storyboard */; };
-		E7EB39D0224C14B50062786F /* erelsoftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EB39CF224C14B50062786F /* erelsoftTests.swift */; };
-		E7EB39DB224C14B50062786F /* erelsoftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EB39DA224C14B50062786F /* erelsoftUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D326F3902989D132000962A3 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIcon.appiconset; path = ../../iOS/AppIcon.appiconset; sourceTree = "<group>"; };
 		E7EB39B7224C14B00062786F /* webapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = webapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7EB39BA224C14B00062786F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7EB39BC224C14B00062786F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,11 +42,7 @@
 		E7EB39C4224C14B50062786F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7EB39C6224C14B50062786F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7EB39CB224C14B50062786F /* webappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7EB39CF224C14B50062786F /* erelsoftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = erelsoftTests.swift; sourceTree = "<group>"; };
-		E7EB39D1224C14B50062786F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7EB39D6224C14B50062786F /* webappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7EB39DA224C14B50062786F /* erelsoftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = erelsoftUITests.swift; sourceTree = "<group>"; };
-		E7EB39DC224C14B50062786F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				E7EB39B9224C14B00062786F /* webapp */,
-				E7EB39CE224C14B50062786F /* webappTests */,
-				E7EB39D9224C14B50062786F /* webappUITests */,
 				E7EB39B8224C14B00062786F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,28 +95,11 @@
 				E7EB39BC224C14B00062786F /* ViewController.swift */,
 				E7EB39BE224C14B00062786F /* Main.storyboard */,
 				E7EB39C1224C14B50062786F /* Assets.xcassets */,
+				D326F3902989D132000962A3 /* AppIcon.appiconset */,
 				E7EB39C3224C14B50062786F /* LaunchScreen.storyboard */,
 				E7EB39C6224C14B50062786F /* Info.plist */,
 			);
 			path = webapp;
-			sourceTree = "<group>";
-		};
-		E7EB39CE224C14B50062786F /* webappTests */ = {
-			isa = PBXGroup;
-			children = (
-				E7EB39CF224C14B50062786F /* erelsoftTests.swift */,
-				E7EB39D1224C14B50062786F /* Info.plist */,
-			);
-			path = webappTests;
-			sourceTree = "<group>";
-		};
-		E7EB39D9224C14B50062786F /* webappUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E7EB39DA224C14B50062786F /* erelsoftUITests.swift */,
-				E7EB39DC224C14B50062786F /* Info.plist */,
-			);
-			path = webappUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +206,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D326F3912989D132000962A3 /* AppIcon.appiconset in Resources */,
 				E7EB39C5224C14B50062786F /* LaunchScreen.storyboard in Resources */,
 				E7EB39C2224C14B50062786F /* Assets.xcassets in Resources */,
 				E7EB39C0224C14B00062786F /* Main.storyboard in Resources */,
@@ -265,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7EB39D0224C14B50062786F /* erelsoftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7EB39DB224C14B50062786F /* erelsoftUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
