@@ -1,4 +1,3 @@
-
 import UIKit
 import WebKit
 
@@ -30,7 +29,4 @@ var webView: WKWebView!
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         title = webView.title
     }
-
-
 }
-

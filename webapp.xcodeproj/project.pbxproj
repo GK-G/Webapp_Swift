@@ -78,8 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				E7EB39B9224C14B00062786F /* webapp */,
-				E7EB39CE224C14B50062786F /* erelsoftTests */,
-				E7EB39D9224C14B50062786F /* erelsoftUITests */,
+				E7EB39CE224C14B50062786F /* webappTests */,
+				E7EB39D9224C14B50062786F /* webappUITests */,
 				E7EB39B8224C14B00062786F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -107,22 +107,22 @@
 			path = webapp;
 			sourceTree = "<group>";
 		};
-		E7EB39CE224C14B50062786F /* erelsoftTests */ = {
+		E7EB39CE224C14B50062786F /* webappTests */ = {
 			isa = PBXGroup;
 			children = (
 				E7EB39CF224C14B50062786F /* erelsoftTests.swift */,
 				E7EB39D1224C14B50062786F /* Info.plist */,
 			);
-			path = erelsoftTests;
+			path = webappTests;
 			sourceTree = "<group>";
 		};
-		E7EB39D9224C14B50062786F /* erelsoftUITests */ = {
+		E7EB39D9224C14B50062786F /* webappUITests */ = {
 			isa = PBXGroup;
 			children = (
 				E7EB39DA224C14B50062786F /* erelsoftUITests.swift */,
 				E7EB39DC224C14B50062786F /* Info.plist */,
 			);
-			path = erelsoftUITests;
+			path = webappUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -432,8 +432,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V42BX36XVH;
 				INFOPLIST_FILE = webapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,8 +452,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V42BX36XVH;
 				INFOPLIST_FILE = webapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
