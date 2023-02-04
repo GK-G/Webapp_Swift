@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D326F3912989D132000962A3 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = D326F3902989D132000962A3 /* AppIcon.appiconset */; };
 		E7EB39BB224C14B00062786F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EB39BA224C14B00062786F /* AppDelegate.swift */; };
 		E7EB39BD224C14B00062786F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EB39BC224C14B00062786F /* ViewController.swift */; };
 		E7EB39C0224C14B00062786F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7EB39BE224C14B00062786F /* Main.storyboard */; };
@@ -33,7 +32,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D326F3902989D132000962A3 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIcon.appiconset; path = ../../iOS/AppIcon.appiconset; sourceTree = "<group>"; };
 		E7EB39B7224C14B00062786F /* webapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = webapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7EB39BA224C14B00062786F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7EB39BC224C14B00062786F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -95,7 +93,6 @@
 				E7EB39BC224C14B00062786F /* ViewController.swift */,
 				E7EB39BE224C14B00062786F /* Main.storyboard */,
 				E7EB39C1224C14B50062786F /* Assets.xcassets */,
-				D326F3902989D132000962A3 /* AppIcon.appiconset */,
 				E7EB39C3224C14B50062786F /* LaunchScreen.storyboard */,
 				E7EB39C6224C14B50062786F /* Info.plist */,
 			);
@@ -206,7 +203,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D326F3912989D132000962A3 /* AppIcon.appiconset in Resources */,
 				E7EB39C5224C14B50062786F /* LaunchScreen.storyboard in Resources */,
 				E7EB39C2224C14B50062786F /* Assets.xcassets in Resources */,
 				E7EB39C0224C14B00062786F /* Main.storyboard in Resources */,
